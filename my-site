@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | 自己紹介</title>
+    <style>
+        /* 全体のデザイン設定 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* ヘッダー */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        /* メインコンテンツ */
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* セクション設定 */
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        /* スキルタグのスタイル */
+        .skills span {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin: 5px 2px;
+            font-size: 0.9rem;
+        }
+
+        /* フッター */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>[名前] の自己紹介ページ</h1>
+        <p>Webデザイナー / 駆け出しエンジニア</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>はじめまして！都内で活動している[名前]です。趣味は旅行とガジェット収集です。最近は新しいプログラミング言語の学習にハマっています。</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>Photoshop</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact & Links</h2>
+            <p>お気軽にフォローやご連絡ください！</p>
+            <ul>
+                <li>Twitter: <a href="#">@your_id</a></li>
+                <li>GitHub: <a href="#">your-github</a></li>
+                <li>Email: example@mail.com</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 [Your Name]. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
